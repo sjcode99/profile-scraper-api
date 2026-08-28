@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Lal - Resume</title>
+    <style>
+        :root {
+            --primary-color: #0a66c2;
+            --text-dark: #191919;
+            --text-muted: #5e5e5e;
+            --bg-light: #f8f9fa;
+            --border-color: #e0e0e0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            background-color: #f3f2ef;
+            line-height: 1.5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 32px 32px 24px 32px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-main h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+
+        .header-main .title {
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .header-main .location {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 14px;
+        }
+
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 32px;
+        }
+
+        section {
+            margin-bottom: 28px;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-dark);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 6px;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary p {
+            font-size: 14px;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .role {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .company {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+
+        .meta {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            list-style: none;
+        }
+
+        .skill-tag {
+            background-color: var(--bg-light);
+            border: 1px solid var(--border-color);
+            color: var(--text-dark);
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .certifications-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            header, .content {
+                padding: 20px;
+            }
+            .item-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header-main">
+                <h1>Suraj Lal</h1>
+                <p class="title">Frontend Engineer @FriskaAi | Full Stack Developer | React.js, Node.js, Next.js, TypeScript, Redux</p>
+                <p class="location">Bengaluru, Karnataka, India</p>
+            </div>
+            <div class="contact-info">
+                <span>📞 9304897775</span>
+                <span>✉️ <a href="mailto:surajlal261199@gmail.com">surajlal261199@gmail.com</a></span>
+                <span>🔗 <a href="https://www.linkedin.com/in/surajlal99" target="_blank" rel="noopener">linkedin.com/in/surajlal99</a></span>
+            </div>
+        </header>
+
+        <main class="content">
+            <section class="summary">
+                <h2>Summary</h2>
+                <p>
+                    I build web experiences that are fast, scalable, and designed around real user needs. My experience spans frontend and full-stack development, including React.js, Redux, Next.js, TypeScript, Node.js, and API integrations. I enjoy transforming complex requirements into clean, maintainable, and user-focused solutions. Throughout my journey, I have worked on different stages of product development - from designing reusable UI components to integrating APIs and delivering production-ready features. I enjoy solving engineering challenges, learning new technologies, and continuously improving how applications are built. My goal is simple: build software that is technically strong, visually polished, and genuinely useful.
+                </p>
+            </section>
+
+            <section class="skills">
+                <h2>Top Skills</h2>
+                <ul class="skills-list">
+                    <li class="skill-tag">Cursor AI</li>
+                    <li class="skill-tag">React.js</li>
+                    <li class="skill-tag">TypeScript</li>
+                    <li class="skill-tag">Next.js</li>
+                    <li class="skill-tag">Node.js</li>
+                    <li class="skill-tag">Redux</li>
+                </ul>
+            </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+                
+                <article class="timeline-item">
+                    <div class="item-header">
+                        <span class="company">FriskaAi</span>
+                        <span class="meta">June 2025 - Present (1 year 3 months)</span>
+                    </div>
+                    <div class="role">Frontend Engineer</div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="item-header">
+                        <span class="company">Stride.ai Inc</span>
+                        <span class="meta">May 2024 - September 2024 (5 months)</span>
+                    </div>
+                    <div class="role">Frontend Engineer</div>
+                    <div class="meta">Bengaluru, Karnataka, India</div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="item-header">
+                        <span class="company">Gobiggi</span>
+                        <span class="meta">January 2023 - April 2024 (1 year 4 months)</span>
+                    </div>
+                    <div class="role">Associate Software Engineer</div>
+                    <div class="meta">Pune, Maharashtra, India</div>
+                </article>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <article class="timeline-item">
+                    <div class="item-header">
+                        <span class="company">RVS College of Engineering and Technology</span>
+                        <span class="meta">June 2019 - May 2023</span>
+                    </div>
+                    <div class="role">Bachelor's Degree, Computer Software Engineering</div>
+                </article>
+            </section>
+
+            <section class="certifications">
+                <h2>Certifications</h2>
+                <ul class="certifications-list">
+                    <li>Javascript Essential Training</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
